@@ -1,0 +1,89 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Farmer Income Data Toolkit",
+  "colors": {
+    "primary": "#395542",
+    "light": "#395542",
+    "dark": "#F5D77D"
+  },
+  "favicon": "/images/favicon.png",
+  "appearance": {"default": "light", "strict": true},
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "introduction/farmer-income-data-toolkit",
+              "introduction/introduction-to-the-FID",
+              "introduction/introduction-to-this-toolkit"
+            ]
+          },
+          {
+            "group": "Process",
+            "pages": [
+              {
+                "group": "Scoping and Preparation",
+                "pages": [
+                  "process/scoping-and-preparation/overview",
+                  "process/scoping-and-preparation/intake-and-kick-off",
+                  "process/scoping-and-preparation/survey-design",
+                  "process/scoping-and-preparation/implement-survey-into-KoboToolbox",
+                  "process/scoping-and-preparation/sampling",
+                  "process/scoping-and-preparation/field-preparations"
+                ]
+              },
+              {
+                "group": "Data Collection",
+                "pages": [
+                  "process/data-collection/overview",
+                  "process/data-collection/enumerator-training",
+                  {
+                    "group": "Field data collection",
+                    "pages": [
+                      "process/data-collection/procedures-and-tips-for-a-quality-interview",
+                      "process/data-collection/ethical-considerations"
+                    ]
+                  },
+                  "process/data-collection/data-quality-monitoring"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Conclusion",
+            "pages": [
+              {
+                "group": "Analysis and Recommendations",
+                "pages": [
+                  "conclusion/overview",
+                  "conclusion/data-cleaning-and-lip-calculations"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Resource Library",
+            "pages": [
+              "introduction/resource-library"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/Akvo-Fairfood-logo.png",
+    "dark": "/logo/Akvo-Fairfood-logo.png"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Contact us",
+      "href": "https://share.hsforms.com/1rMVDK46BTceWoYKcVLKOyA14ju5"
+    }
+  }
+}
